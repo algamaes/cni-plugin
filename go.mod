@@ -42,3 +42,7 @@ require (
 	k8s.io/client-go v0.17.3
 	k8s.io/utils v0.0.0-20191114200735-6ca3b61696b6
 )
+
+replace (
+	github.com/projectcalico/cni-plugin => github.com/algamaes/cni-plugin v1.11.1-0.20210218181005-d2cf2dcb2803
+)
